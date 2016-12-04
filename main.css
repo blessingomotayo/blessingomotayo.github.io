@@ -1,0 +1,113 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1.title {
+  text-align: center;
+  position: absolute;
+  top: 290px;
+  left: 0;
+  width: 100%;
+  font-size: 80px;
+  /*font-size: 2.6rem;*/
+
+}
+
+h2 {
+  display: block;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 100%;
+  font-size: 30px;
+  color: grey;
+}
+p {
+  /*max-width: 140%;*/
+  min-width: 10%;
+  margin-left: 60%;
+  margin-right: -60%;
+  font-size: 20px;
+}
+
+div {
+  padding-right: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+video {
+  background-color: #000000;
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+}
+
+.img {
+  position: absolute;
+  clip: rect(20px, 0px, 0px, 0px);
+}
+
+.firstscreen {
+  background-image: url('lightgreybackgroundpicturecopy.jpg');
+  background-position: center top;
+  background-size: cover;
+  /*background-clip: rect(20px, 0px, 0px, 0px);
+  /*max-width: 100%*/
+  /*max-height: auto;*/
+  margin-bottom: -750px;
+  /*padding: 250px 0;*/
+  /*margin: 30px;*/
+  text-shadow: 0 2px #000000;
+  font-family: 'Trebuchet MS', 'Helvetica';
+}
+
+.main {
+  padding-left: 30px;
+  min-width: 75%;
+}
+
+.nav {
+  background-color: #FFEE00;
+  max-width: 25%;
+  min-width: 140px;
+  flex: 1;
+}
+
+.nav h1 {
+  padding-left: 20px;
+}
+
+#footer {
+  color: DarkSlateGray;
+  font-size: 16px;
+}
+
+#aboutme{
+/* should be a section for my bio*/
+}
+
+.aligncenter {
+  text-align: center;
+}
+#projects{
+/* should be a section for my projects*/
+}
+#contactme{
+/* should be a section to contact me*/
+}
+
+
+
+

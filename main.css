@@ -8,7 +8,7 @@ html, body {
 h1.title {
   text-align: center;
   position: absolute;
-  top: 300px;
+  top: 200px;
   left: 0;
   width: 100%;
   font-size: 80px;
@@ -25,7 +25,7 @@ h3 {
   text-align: center;
   font-style: italic;
   position: absolute;
-  top: 400px;
+  top: 300px;
   left: 0;
   width: 100%;
   font-size: 30px;
@@ -53,7 +53,6 @@ video {
 .container {
   display: flex;
 }
-
 
 
 #header {
@@ -87,10 +86,6 @@ video {
   text-decoration: none;
   padding: 0 10px;
 }
-
-
-
-
 
 
 .img {
@@ -131,8 +126,12 @@ video {
 }
 
 #footer {
-  color: DarkSlateGray;
-  font-size: 16px;
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+  background: #222;
+   color: white;
 }
 
 #aboutme{

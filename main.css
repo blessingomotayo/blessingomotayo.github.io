@@ -21,7 +21,7 @@ h2 {
   text-align: center;
   font-size: 260%;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 h3 {
@@ -32,7 +32,7 @@ h3 {
   left: 0;
   width: 100%;
   font-size: 20px;
-  color: grey;
+  color: black;
 }
 p {
   /*max-width: 140%;*/
@@ -52,6 +52,16 @@ div {
 video {
   background-color: #000000;
   border: 2px solid black;
+}
+
+.underline {
+    /*width: 100px;*/
+    height: 4px;
+    border-radius: 10px;
+    background-color: black;
+    margin: .3em auto .4em;
+    display: block;
+    content: '';
 }
 
 .container {
@@ -98,14 +108,15 @@ video {
 
 
 .img {
-  position: absolute;
-  /*display: block;*/
-}
-
-.mainscreen {
   background-image: url('lightgreybackgroundpicturecopy.jpg');
   background-position: center top;
   background-size: cover;
+
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
   /*opacity: 0.4;*/
   /*filter: grayscale(100%);*/
   /*background-clip: rect(20px, 0px, 0px, 0px);
@@ -115,6 +126,17 @@ video {
   text-align: center;
   /*padding: 250px 0;*/
   /*margin: 30px;*/
+  text-shadow: 0 2px #000000;
+  font-family: 'Trebuchet MS', 'Helvetica';
+
+
+
+  position: absolute;
+  /*display: block;*/
+}
+
+.mainscreen {
+  text-align: center;
   text-shadow: 0 2px #000000;
   font-family: 'Trebuchet MS', 'Helvetica';
 }
@@ -188,18 +210,21 @@ video {
 
 
 
+.img-circle {
+    /*border-radius: 50%;*/
+    margin-left: -73%;
+    width: 26%;
+    height: 50%;
+}
 
 .aboutme {
 /* should be a section for my bio*/
-  /*padding-right: 5px;*/
-  height: 0%;
-  width: 100%;
-
-  /*min-width: 10%;*/
-  /*margin-left: 0%;*/
-  /*margin-right: 10%;*/
-  margin-top: 0%;
-  /*font-size: 50px;*/
+background-color: #FEFCFF;
+padding: 15px;
+color: #000000;
+text-align: center;
+font-size: 14px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .aligncenter {
@@ -207,6 +232,12 @@ video {
 }
 #projects{
 /* should be a section for my projects*/
+background-color: #FEFCFF;
+padding: 15px;
+color: #000000;
+text-align: center;
+font-size: 14px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 #contactme{
 /* should be a section to contact me*/

@@ -118,6 +118,8 @@ video {
   background-image: url('backgroundImages/lightgreybackgroundpicturecopy.jpg');
   background-position: center top;
   background-size: cover;
+  border-bottom-style: line;
+  border-style: solid none;
 
   -webkit-filter: blur(1px);
   -moz-filter: blur(1px);
@@ -219,7 +221,7 @@ video {
 
 .img-circle {
     border-radius: 50%;
-    margin-left: -60%;
+    margin-left: -65%;
     margin-top: -10%;
     width: 35%;
     height: 65%;
@@ -245,8 +247,9 @@ font-size: 14px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.aligncenter {
+.bio {
   text-align: center;
+  margin-top: -30%;
 }
 #projects{
 /* should be a section for my projects*/

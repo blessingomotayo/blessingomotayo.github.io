@@ -115,7 +115,7 @@ video {
 
 
 .img {
-  background-image: url('lightgreybackgroundpicturecopy.jpg');
+  background-image: url('backgroundImages/lightgreybackgroundpicturecopy.jpg');
   background-position: center top;
   background-size: cover;
 
@@ -219,10 +219,10 @@ video {
 
 .img-circle {
     border-radius: 50%;
-    margin-left: -73%;
+    margin-left: -60%;
     margin-top: -10%;
-    width: 26%;
-    height: 55%;
+    width: 35%;
+    height: 65%;
 
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */

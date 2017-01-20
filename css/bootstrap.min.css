@@ -50,18 +50,15 @@ h3.title {
 
 }
 
-div.imgMain {
-  background-image: url('pics/bluewoodpicture.jpg') no-repeat fixed;
-  background-position: center;
-  /*background-size: cover;*/
-  /*border-bottom-style: line;*/
-  /*border-style: solid none;*/
-
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-attachment: fixed;
-
+.imgMain {
+   background: url('../pics/bluewoodpicture.jpg') no-repeat  center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height:700px;
+  background-size: contain;
+ 
 /*  -webkit-filter: blur(1px);
   -moz-filter: blur(1px);
   -o-filter: blur(1px);
@@ -72,8 +69,8 @@ div.imgMain {
   /*filter: grayscale(100%);*/
   /*background-clip: rect(20px, 0px, 0px, 0px);*/
   /*max-width: 100% */
- margin-top: -51%;
- margin-left: -59%;
+ /*margin-top: -51%;*/
+ /*margin-left: -59%;*/
   /*margin-bottom: -30%;
   /*text-align: center;*/
   /*padding: 250px 0;*/

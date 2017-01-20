@@ -1,83 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Bless up</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="main.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bless up</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-<!-- The header section -->
-<header id="header">
-      <div class="container">
-        <h1>
-          B.O
-        </h1>
-        <nav id="nav">
-          <ul>
-            <li>
-              <a href="#" style = "color: black;">Home</a>
-            </li>
-            <li>
-              <a href="#" style = "color: black">About Me</a>
-            </li>
-            <li>
-              <a href="#" style = "color: black">Projects</a>
-            </li>
-            <li>
-              <a href="resume/Blessing_Omotayo_Resume.pdf" target = "_blank" style = "color: black">Resume</a>
-            </li>
-            <li>
-              <a href="#" style = "color: black">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div> 
-</header> 
-<!-- CLose header section -->
 
-<div class = "imgMain"></div>
-<div class = "mainscreen">
-	<h1 class = "title">BLESSING OMOTAYO</h1>
-	<h3 class = "title">SOFTWARE ENGINEERING STUDENT</h3>
-</div>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<div class = "container">
-	<div class = "aboutme">
-			<h2>About Me
-				<div class = "underline"></div>
-			</h2>
-			<img class="img-circle" src="picImages/blessing3color.jpg">
-			<h3 class = "whoami">Who Am I?</h3>
-			<p class = "bio">
-			Hello, I am a Software Engineering student enrolled at Carleton University. I am hard working, patient and willing to learn in any way I can. I seek opportunities that will allow me to use my skills as well as build upon them to make the world better for the new generation. <br>			
-			</p>
-			<h3 class = "interests">Interests</h3>  
-			<br>
-			<br>
-			<p>Few of my interests are:   <br><br>Singing<br>Web Developement<br>Mobile Developement<br>Dancing<br>Learning<br>Music
-			<!-- <ul>
-				<li>Singing</li>
-				<li>Web Developement</li>
-				<li>Mobile Developement</li>
-				<li>Dancing</li>
-				<li>Music</li>
-				<li>Learning</li>
-			</ul> -->
-			</p>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-	</div>
-</div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Blessing Omotayo</a>
+            </div>
 
-<div class="col-m-12">
-  <div class="projects">
-    <h2>Projects</h2>
-    <p>Chania is a city on the island of Crete.</p>
-  </div>
-</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#project">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-<!-- <div id = "footer">
-<footer>&copy; blessingomotayo 2016</footer>
-</div> -->
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-12" >
+                    <div class="imgMain"> 
+                        <img src="pics/bluewoodpicture.jpg">
+
+                        <div class = "coverContent">
+
+                        <h1 class = "title">Blessing Omotayo</h1>
+                        <h3 class = "title">SOFTWARE ENGINEERING STUDENT</h3>
+
+                        <a class="btn btn-default page-scroll" href="#about">Here's Me!</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class = "sectionTitle">About me</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="project" class="project-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Project Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Resume Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
+
 </html>

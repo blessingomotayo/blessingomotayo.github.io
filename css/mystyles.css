@@ -177,3 +177,20 @@ p.bio {
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
 }
+
+/*Contact Section*/
+
+.iconSize {
+    margin-left: 15px;
+    color: #333;
+    font-size: 10px;
+    letter-spacing: 1.1em;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

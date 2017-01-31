@@ -39,7 +39,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
-    height: 70%;
+    height: 90%;
     padding-top: 100px;
     text-align: center;
     background: #fff;
@@ -60,9 +60,9 @@ of those sections to manage the look and feel of the site. */
 }
 
 .contact-section {
-    height: 25%;
-    padding-top: 50px;
+    height: 20%;
+    padding-top: 80px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 

@@ -12,12 +12,14 @@ h1.title {
   top: 130px;
   left: 0;
   width: 100%;
-  font-size: 70px;
+  font-size: 80px;
   /*font-weight: 900;*/
   /*font-size: 2.6rem;*/
   /*font-family: "Times New Roman", Georgia, Sans-Serif;*/
   font-family: Courier, monospace, sans-serif;
   color: black;
+  font-weight: 500;
+
 
 }
 
@@ -117,7 +119,7 @@ h1.sectionTitleAboutMe {
   /*font-weight: 900;*/
   /*margin-top: 7px;*/
   /*margin-bottom: 80px;*/
-  margin-left: 35%;
+  /*margin-left: 35%;*/
   /*height: 150px;*/
   /*font-family: "Times New Roman", Georgia, Sans-Serif;*/
   font-family: Courier, monospace, sans-serif;
@@ -155,7 +157,7 @@ h3.whoami {
 }
 
 p.bio {
-  text-align: center;
+  text-align: left;
   margin-top: 10%;
   margin-left: 40%;
   font-style: normal;
@@ -164,18 +166,31 @@ p.bio {
   /*font-family: Raleway,Arial;*/
   /*font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;*/
 }
+li.charac{
+	margin-left: 40%;
+	font-size: 17px;
+	text-align: left; 
+	font-style: normal;
+	font-family: 'Quicksand';
+}
 
 .img-circle {
     border-radius: 30%;
-    margin-left: -75%;
-    margin-top: -18%;
-    width: 30%;
-    height: 30%;
+/*  border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;*/
+    margin-left: -10%;
+    margin-top: -45%;
+    width: 40%;
+    /*height: 40%;*/
     background-position: fixed;
+    /*vertical-align: middle;*/
 
-    -ms-transform: rotate(0deg); /* IE 9 */
+    -ms-transform: rotate(0deg);  /* IE 9 */
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
+    float: left;
 }
 
 /*Contact Section*/

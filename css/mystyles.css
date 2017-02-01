@@ -10,18 +10,25 @@ h1.title {
   position: absolute;
   text-transform: uppercase;
   top: 130px;
+  /*bottom: -110px*/
   left: 0;
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
   font-size: 90px;
-  /*font-weight: 900;*/
   /*font-size: 68px;*/
-  /*font-family: "Times New Roman", Georgia, Sans-Serif;*/
-  font-family: Courier, monospace, sans-serif;
+  /*font-family: "Times New Roman", Georgia, Serif;*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Courier, monospace, sans-serif;*/
+  /*font-family: Georgia, serif;*/
   color: white;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.0588235em;
+
+  border-top-style: solid;
+  /*border-right-style: solid;*/
+  border-bottom-style: solid;
+  /*border-left-style: solid;*/
 
 
 }
@@ -47,21 +54,33 @@ h3.title {
   text-align: center;
   /*font-style: italic;*/
   position: absolute;
-  top: 230px;
+  top: 290px;
   left: 0;
   width: 100%;
   font-size: 20px;
   margin-top: 3%;
   color: white;
   /*font-family: 'Trebuchet MS', 'Helvetica';*/
-  font-family: 'Josefin Sans';
+  /*font-family: 'Josefin Sans';*/
+  font-family: 'Quicksand';
 
 }
 
 .underlineEng {
-    width: 350px;
-    height: 2px;
-    border-radius: 10px;
+    width: 380px;
+    height: 1px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: .1em auto .4em;
+    display: block;
+    content: '';
+    /*top: -90%;*/
+}
+
+.underlinename {
+    width: 1020px;
+    height: 1px;
+    border-radius: 15px;
     background-color: #ffffff;
     margin: .1em auto .4em;
     display: block;
@@ -94,7 +113,7 @@ h3.title {
   /*filter: grayscale(100%);*/
   /*background-clip: rect(20px, 0px, 0px, 0px);*/
   /*max-width: 100% */
- margin-top: -5.5%;
+ margin-top: -10%;
  margin-left: -34%;
  margin-right: -33.5%;
    /*margin-bottom: 70%;*/
@@ -118,6 +137,9 @@ h3.title {
   /*left: 50%;*/
   /*transform: translate(-50%);*/
 }
+a.heresmefont{
+	font-family: 'Quicksand';
+}
 
 .btn-default {
   color: #333;
@@ -127,12 +149,12 @@ h3.title {
   margin-left: 0%;
 }
 
-h1.sectionTitleAboutMe {
-  font-weight: 100;
+h1.sectionTitle {
+  /*font-weight: 100;*/
   display: block;
   text-align: center;
   /*text-decoration-line:underline;*/
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   /*font-style: normal;*/
   /*font-weight: 100;*/
@@ -142,11 +164,12 @@ h1.sectionTitleAboutMe {
   /*margin-left: 35%;*/
   /*height: 150px;*/
   /*font-family: "Times New Roman", Georgia, Sans-Serif;*/
-  font-family: Courier, monospace, sans-serif;
+  /*font-family: Courier, monospace, sans-serif;*/
+  /*font-family: "Times New Roman", Georgia, Serif;*/
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .underline {
-
     width: 100px;
     height: 2px;
     border-radius: 10px;
@@ -173,7 +196,8 @@ h3.whoami {
   font-size: 20px;
   margin-top: -5%;
   color: black;
-  font-family: 'Josefin Sans';
+  /*font-family: 'Josefin Sans';*/
+  font-family: 'Quicksand';
 }
 
 p.bio {

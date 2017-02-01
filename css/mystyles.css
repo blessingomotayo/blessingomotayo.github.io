@@ -26,8 +26,10 @@ h1.title {
   letter-spacing: 0.0588235em;
 
   border-top-style: solid;
+  border-top-width: 2px;
   /*border-right-style: solid;*/
   border-bottom-style: solid;
+  border-bottom-width: 2px;
   /*border-left-style: solid;*/
 
 
@@ -54,7 +56,7 @@ h3.title {
   text-align: center;
   /*font-style: italic;*/
   position: absolute;
-  top: 290px;
+  top: 260px;
   left: 0;
   width: 100%;
   font-size: 20px;
@@ -88,8 +90,17 @@ h3.title {
     /*top: -90%;*/
 }
 
+p.smallinfo {
+    border-style: solid;
+    border-width: 0px 0px 0px 80px;
+    border-color: black;
+    text-align: left;
+    margin-left: -300px;
+    margin-top: 70px;
+}
+
 .imgMain {
-   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../pics/lightgreybackgroundpicturelittlebottom.jpg') no-repeat  center center ; 
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../pics/lightgreybackgroundpicturelittlebottom.jpg') no-repeat  center center ; 
   -webkit-background-size: cover 100% 100%;
   -moz-background-size: cover 100% 100%;
   -o-background-size: cover 100% 100%;
@@ -150,8 +161,8 @@ a.heresmefont{
 }
 
 h1.sectionTitle {
-  /*font-weight: 100;*/
-  display: block;
+  font-weight: 100;
+  /*display: block;*/
   text-align: center;
   /*text-decoration-line:underline;*/
   font-size: 40px;

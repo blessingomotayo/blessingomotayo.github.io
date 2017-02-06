@@ -53,16 +53,16 @@ of those sections to manage the look and feel of the site. */
 }
 
 .resume-section {
-    height: 50%;
+    height: 80%;
     padding-top: 70px;
     text-align: center;
     background: #fff;
 }
 
 .contact-section {
-    height: 20%;
-    padding-top: 80px;
+    height: 100%;
+    padding-top: 40px;
     text-align: center;
-    background: #fff;
+    background: black;
 }
 

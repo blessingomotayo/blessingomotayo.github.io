@@ -1781,7 +1781,7 @@
 			min-height: 100%;
 		}
 		.main.halfscreen {
-			min-height: 80%;
+			min-height: 90%;
 		}
 
 		.main.style1 {
@@ -1892,7 +1892,8 @@
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				/*background: #f5f6f7;*/
+				background: #f3f4f4;
 			}
 
 		.main.dark {

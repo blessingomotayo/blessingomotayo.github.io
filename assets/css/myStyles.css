@@ -3,23 +3,28 @@ h2.name {
 	font-size: 50px;
 	margin-top: 100px;
 
-	/*border-top-style: solid;*/
-  	/*border-top-width: 2px;*/
-  /*border-right-style: solid;*/
-  	/*border-bottom-style: solid;*/
-  	/*border-bottom-width: 1px;*/
-  /*border-left-style: solid;*/
-
 }
 
 .underlineName {
     width: 300px;
     height: 2px;
     border-radius: 10px;
-    background-color: #ffffff;
-    margin: .3em auto .4em;
+    /*background-color: rgba(214, 246, 253, 0.57);*/
+    background-color: white;
+    margin: .2em auto .6em;
     display: block;
     content: '';
+}
+
+/*.underlineWhoAmI {
+    width: 150px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgba(214, 246, 253, 0.57);
+    margin: .em auto .4em;
+    display: block;
+    content: '';
+    margin-left: 22px;
     /*color: grey;*/
 }
 

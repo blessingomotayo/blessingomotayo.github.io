@@ -1801,6 +1801,10 @@
 				font-size: 4.25em;
 				line-height: 1em;
 			}
+			.main.style1.title h2 {
+				font-size: 5.5em;
+				line-height: 1em;
+			}
 
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
@@ -1958,6 +1962,9 @@
 
 				.main.style1 h2 {
 					font-size: 3em;
+				}
+				.main.style1.title h2 {
+					font-size: 4em;
 				}
 
 			.main.style2 {

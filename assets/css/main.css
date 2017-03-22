@@ -2107,7 +2107,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/lightgreybackgroundpicture.jpg");
+		background: url("images/overlay.png"), url("../../images/lightgreybackgroundpicture2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2135,7 +2135,7 @@
 /* Three */
 
 	#three {
-		background: url("images/overlay.png"), url("../../images/lightgreybackgroundpicture.jpg");
+		background: url("images/overlay.png"), url("../../images/lightgreybackgroundpicture2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;

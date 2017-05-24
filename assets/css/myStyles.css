@@ -20,7 +20,7 @@ p.blue {
 }
 
 .underlineName {
-    width: 480px;
+    width: 180px;
     height: 2px;
     border-radius: 10px;
     /*background-color: rgba(214, 246, 253, 0.57);*/
@@ -54,13 +54,13 @@ p.blue {
 }
 
 .imgMe {
-	background: url("../../images/blessingheadscarf.jpg") no-repeat;
-	width: 380px;
-    height: 425px;
+	background: url("../../images/languages-in-art-form.jpg") no-repeat;
+	width: 480px;
+    height: 380px;
     background-size: 100% 100%;
-    background-position: 50% 50%;
+    background-position: 100% 100%;
     /*border-radius: 30%;*/
-    /*margin-left: -75%;*/
+    padding-top: 15%;
     /*padding-left: -70%;*/
 
     -ms-transform: rotate(0deg); /* IE 9 */

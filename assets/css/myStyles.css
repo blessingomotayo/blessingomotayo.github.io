@@ -30,18 +30,6 @@ p.blue {
     content: '';
 }
 
-/*.underlineWhoAmI {
-    width: 150px;
-    height: 5px;
-    border-radius: 10px;
-    background-color: rgba(214, 246, 253, 0.57);
-    margin: .em auto .4em;
-    display: block;
-    content: '';
-    margin-left: 22px;
-    /*color: grey;*/
-}
-
 .project1 {
 	height: 50%;
 	width: 50%;

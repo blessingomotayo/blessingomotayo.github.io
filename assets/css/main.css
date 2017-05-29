@@ -2121,20 +2121,10 @@
 		background-repeat: repeat, no-repeat;
 	}
 
-	/* coverPhoto */
-
-	#coverPhoto {
-		background: url("images/overlay.png"), url("../../images/wood-coffee-iphone-notebook.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
-
 /* One */
 
 	#one {
-		/*background: url("images/overlay.png"), url("../../images/bluewoodpicture2.jpg"); -->*/
+		background: url("images/overlay.png"), url("../../images/lightgreybackgroundpicture2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2143,7 +2133,7 @@
 /* Two */
 
 	#two {
-		/*background: url("images/overlay.png"), url("../../images/bluewoodpicture2.jpg"); -->*/
+		background: url("images/overlay.png"), url("../../images/lightgreybackgroundpicture2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;

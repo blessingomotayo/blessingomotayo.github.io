@@ -66,7 +66,7 @@
 
 /* One */
 
-	#one {
+	#whoami {
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 		background: url("../../images/one.jpg");
 		background-size: cover;
@@ -89,7 +89,7 @@
 
 /* Two */
 
-	#two {
+	#charac {
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 		background: url("../../images/two.jpg");
 		background-size: cover;
@@ -112,7 +112,7 @@
 
 /* Three */
 
-	#three {
+	#resume {
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 		background: url("../../images/three.jpg");
 		background-size: cover;

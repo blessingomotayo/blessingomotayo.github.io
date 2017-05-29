@@ -2123,7 +2123,7 @@
 
 /* One */
 
-	#one {
+	#whoami {
 		background: url("images/overlay.png"), url("../../images/lightgreybackgroundpicture2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2132,7 +2132,7 @@
 
 /* Two */
 
-	#two {
+	#charac {
 		background: url("images/overlay.png"), url("../../images/lightgreybackgroundpicture2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2141,7 +2141,7 @@
 
 /* Three */
 
-	#three {
+	#resume {
 		background: url("images/overlay.png"), url("../../images/lightgreybackgroundpicture2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
